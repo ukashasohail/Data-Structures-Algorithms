@@ -17,9 +17,11 @@ int main(){
 
     cout << "enter roll no: "; cin >> stud.rollno;
     cout << "enter name of student:"; cin >> stud.name;
-    cout << "enter 1cgpa:"; cin >> stud.cgpa;
+    cout << "enter cgpa:"; cin >> stud.cgpa;
 
     printResult(stud);
+
+    cout << "size of stud var is: "<< sizeof(stud)<< endl;
 
     return 1;
 }
